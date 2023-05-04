@@ -1,0 +1,6 @@
+CREATE DATABASE Country
+use Country
+CREATE TABLE country_tbl
+(id int, name varchar(400), population int)
+
+INSERT INTO country_tbl (id, name, population) values(1, 'India', 139274923)
